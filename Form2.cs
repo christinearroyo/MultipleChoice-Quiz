@@ -47,5 +47,12 @@ namespace Multiple_Choice_Quiz
             Form3 NextForm3 = new Form3();
             NextForm3.Show();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 BackForm1 = new Form1();
+            BackForm1.Show();
+        }
     }
 }

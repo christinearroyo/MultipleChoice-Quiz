@@ -49,5 +49,12 @@ namespace Multiple_Choice_Quiz
             Summary Submit = new Summary();
             Submit.Show();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 BackForm2 = new Form2();
+            BackForm2.Show();
+        }
     }
 }
